@@ -70,8 +70,8 @@ def main():
     Final_Check = raw_input(">>> yes or no : ")
     if Final_Check=='Y' or Final_Check=='y' or \
         Final_Check=='yes'or Final_Check=='YES':
-        print Copy_File
-        # os.system(Copy_File)
+        # print Copy_File
+        os.system(Copy_File)
     else:
         return
 
@@ -80,8 +80,8 @@ def main():
     BCD_Build= \
         'bcdboot.exe ' +\
         DiskCode+':\windows /f ALL /s '+DiskCode+':\\'
-    print BCD_Build
-    # os.system(BCD_Build)
+    # print BCD_Build
+    os.system(BCD_Build)
 
 
     # Finish
