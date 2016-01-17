@@ -23,8 +23,9 @@
 使用方法：<br>
   1.裝好python2.7<br>
   2.複製所需安裝的wim或esd檔案到IMG_File資料夾內<br>
-  3.使用管理開啟CMD(命令提示字元)<br>
-  4.切換到該目錄直接執行檔案即可<br>
+  3.從C:\Windows\System32複製bcdboot.exe至目錄內<br>
+  4.使用管理開啟CMD(命令提示字元)<br>
+  5.切換到該目錄直接執行檔案即可<br>
 <br>
 <br>
 <br>
